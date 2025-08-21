@@ -16,6 +16,7 @@ public class Main {
             }
         }
     }
+    //duyệt tới n/2 vì để không bị trùng. vd i = 3 -> n - i = 7, xong i = 7 thì n - i =  3 thì trùng
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
